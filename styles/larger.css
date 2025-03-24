@@ -8,25 +8,14 @@
         font-size: 30px;
         margin-left: 20px; 
     }
-
-  
-    nav > ul {
+    nav ul {
         display: flex;
-        flex-direction: column; 
-        justify-content: center;
-    }
+        flex-direction: column;
 
-    nav > ul > li {
-        margin-right: 20px;
-        margin-bottom: 0;
     }
-
-    nav > ul > li > a {
-        font-size: 18px; 
-        padding-top: 18px;
-    }
-
-    .cards {
+  
+ 
+   .cards{
         display: flex;
         flex-direction: column; 
         justify-content: center;
@@ -58,7 +47,7 @@
 
     }
     nav > ul li{
-        width: 150px;
+        width: 100%;
         
     }
 
@@ -71,7 +60,7 @@
     }
 
     nav > ul > li {
-        width: 150px; 
+        width: 100%; 
     }
 
     main {

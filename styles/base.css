@@ -39,8 +39,7 @@ header>img{
 }
 
 header >span{
-  
-    
+   
     font-size: 50px;
     font-style: normal;
     color: #F2F2F2;
@@ -57,39 +56,40 @@ nav{
     padding: 10px;
 }
 
-nav ul{
-    margin:0 ;
+nav ul {
+    margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
-    flex-direction:row;
-    align-items: center;    
-  
+    flex-direction: row;
+    align-items: center;
 }
-nav>ul>li{   
+
+nav > ul > li {  
     width: 100%;
-    margin-bottom: 10px; 
-    cursor: pointer;  
-    text-align: center;  
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
 }
-.active{
+
+.active {
     background-color: #3C3F40;
 }
 
-nav>ul>li>a{    
+nav > ul > li > a {    
     display: block;
     width: 100%;
     padding: 12px 0;
     color: #F2F2F2;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
-            
+    font-size: 18px;
 }
+
 nav ul li a:hover {
-    color: #242625 ; 
-    background-color: #F2F2F2; 
-    border-radius: 4px; 
+    color: #242625; 
+    background-color: #F2F2F2;
+    border-radius: 4px;
 }
 
 
