@@ -26,9 +26,10 @@ body{
     height: 100px;
     padding: 10px;
     display: flex;
-    justify-content: center ;
-    align-items: center;   
-    flex-wrap: wrap;
+    justify-content:  center;
+    align-items: center;  
+    position: relative; 
+
  }
 
 header>img{
@@ -39,7 +40,6 @@ header>img{
 }
 
 header >span{
-   
     font-size: 50px;
     font-style: normal;
     color: #F2F2F2;
@@ -47,6 +47,38 @@ header >span{
     height: 100%;
     padding-top: 10px;
 }
+
+/* Coding humberguer tab*/
+
+.hamburger{
+    border: none;
+    font-size: 2rem;
+    background:none;
+    color:#F2F2F2 ;
+    margin-top: 70px;
+    cursor: pointer;
+    justify-content: right;
+    padding: .25rem 2vw;
+}
+
+.hamburger::before{
+    content: "\2630";
+}
+
+/*Coding mode*/
+
+.mode{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 2rem;
+    cursor: pointer;
+    
+    
+}
+
+
+
 
 /* Coding nav*/
 

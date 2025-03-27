@@ -1,17 +1,44 @@
 
 
 @media (max-width: 768px) {
+    header{
+        justify-content: space-between;
+    }
+   
     header > img{
         height: 100%;
+        margin: 1rem;
     }
     header > span {
         font-size: 30px;
         margin-left: 20px; 
     }
-    nav ul {
-        display: flex;
-        flex-direction: column;
+    nav{
+        display: grid;
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 0.5s ease-out;
+    }
 
+    nav ul{
+        overflow: hidden;
+    }
+
+    nav#animateme.open{
+        grid-template-rows: 1fr;
+
+    }
+     nav ul{
+        flex-direction: column;
+     }
+    .hamburger.open::before{
+        content: "X";
+    }
+
+    nav > ul > li {  
+        
+        margin-bottom: 10px;
+        cursor: pointer;
+        text-align: start;
     }
   
  
@@ -27,6 +54,13 @@
 
     footer {
         font-size: 13px; 
+    }
+}
+
+@media (min-width: 768px) {
+    .hamburger{
+        display: none;
+          
     }
 }
 
@@ -50,6 +84,8 @@
         width: 100%;
         
     }
+
+    
 
 }
 
