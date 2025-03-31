@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manuel Mário Manuel Saene Chave Chave - WDD 230 - Web Frontend Development-course assignments website">
+    <meta name="author" content="Manuel Chave">
+    <meta property="og:title" content="Manuel Chave - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.rm.co.mz/wp-content/uploads/2023/04/RM-4.jpg">
+    <meta property="og:url" content="https://manuelchave1.github.io/wdd230/index.html">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet"  href="styles/normalize.css">
+    <link rel="stylesheet"  href="styles/base.css">
+    <link rel="stylesheet"  href="styles/larger.css">
+    <link rel="stylesheet"  href="styles/form.css">
+     
+    <title>Manuel Chave - WDD 230 - Web Frontend Development</title>
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <img src="images/profile_picture.webp" alt="My profile Picture">
+            <span>Manuel Chave</span>
+            <button class="hamburger"></button>
+            <div class="mode">🌞</div>
+        </header>
+        <nav id="animateme">
+            
+            <ul class="menuLinks">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="chamber/index.html" target="_blank">Chamber</a></li>
+                <li><a href="#">Site Plan</a></li>
+                <li><a href="#">Form</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Form Validation</h1>
+            <form method="get" action="record.html">
+                <fieldset>
+                    <legend>Account Information</legend>
+                    
+                    <label for="username">Username* <input type="text" id="username" name="username" required></label>
+                    
+                    <label for="password">Password* <input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" required title="Password must be at least 8 characters and contain only letters and numbers"></label>
+                    
+                    <label for="password2">Confirm Password* <input type="password" id="password2" name="password2" required></label>
+                    
+                    <label for="email">Email* <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required title="Please enter a valid email address from byui.edu domain"></label>
+                    
+                    <div class="rating">
+                        <label for="rating">Page Rating: <span id="ratingvalue">5</span></label>
+                        <input type="range" id="rating" name="rating" min="1" max="10" value="5" step="1">
+                    </div>
+                </fieldset>
+                
+                <input type="submit" value="Create Account" class="submitBtn">
+            </form>
+        </main>
+
+        
+        <footer>
+            <P>
+                <span id="year"></span> 
+                Manuel Chave 
+                Mozambique 
+                <img src="images/Moz_flag.webp" alt="Moz flag">              
+            </P>
+            <P id="lastModified">Last Modification: </P>
+</footer>
+</div>
+    <script src="scripts/getDates.js"></script>
+</body>
+</html>
