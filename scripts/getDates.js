@@ -48,5 +48,7 @@ function setupVisitCounter() {
         localStorage.setItem("visits", numVisits);
     }
 }
+
+
 	
 

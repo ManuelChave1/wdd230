@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Matola Chamber of Commerce -consectetur adipisicing elit. Aliquam iste.">
+    <meta name="author" content="Manuel Chave">
+    <meta property="og:title" content="Matola Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/ManuelChave1/wdd230/blob/main/chamber/image/Site-Logo.png">
+    <meta property="og:url" content="https://manuelchave1.github.io/wdd230/">
+    <link rel="icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <title>Matola Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="image/Site-Logo.png" alt="Matola Chamber of Commerce Logo">
+                <div class="site-name">
+                    <h1>Matola</h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+            </div>
+            <div class="social-media-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="image/facebook-icon.png" alt="Facebook">
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <img src="image/linkedin-icon.png" alt="LinkedIn">
+                </a>
+            </div>
+        
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Upcoming</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="join-main">
+        <section class="form-section">
+            <h1>Join the Matola Chamber of Commerce</h1>
+            <p class="form-intro">Complete the form below to apply for membership and connect with Matola's thriving business community.</p>
+            
+            <form method="get" action="thankyou.html" class="membership-form">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    
+                    <label for="first-name">
+                        First Name*
+                        <input type="text" id="first-name" name="first-name" required>
+                    </label>
+                    
+                    <label for="last-name">
+                        Last Name*
+                        <input type="text" id="last-name" name="last-name" required>
+                    </label>
+                    
+                    <label for="title">
+                        Position/Title
+                        <input type="text" id="title" name="title" pattern="[A-Za-z\s\-]{7,}" placeholder="At least 7 characters">
+                        <span class="note">Alpha characters, hyphens, and spaces only (min. 7 characters)</span>
+                    </label>
+                    
+                    <label for="email">
+                        Email Address*
+                        <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                    </label>
+                    
+                    <label for="phone">
+                        Mobile Phone Number*
+                        <input type="tel" id="phone" name="phone" required>
+                    </label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Business Information</legend>
+                    
+                    <label for="business-name">
+                        Business/Organization Name*
+                        <input type="text" id="business-name" name="business-name" required>
+                    </label>
+                    
+                    <label for="membership-level">
+                        Membership Level*
+                        <select id="membership-level" name="membership-level" required>
+                            <option value="">Please select a membership level</option>
+                            <option value="np">NP Membership (Non-profit - no fee)</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                    
+                    <label for="business-description">
+                        Business/Organization Description
+                        <textarea id="business-description" name="business-description" rows="5" placeholder="Tell us about your business..."></textarea>
+                    </label>
+                    
+                    <input type="hidden" id="timestamp" name="timestamp">
+                </fieldset>
+                
+                <input type="submit" value="Submit Application" class="submit-btn">
+            </form>
+        </section>
+        
+        <section class="benefits-section">
+            <h2>Membership Benefits</h2>
+            
+            <div class="membership-card np">
+                <h3>NP Membership</h3>
+                <p class="price">Free for Non-Profit Organizations</p>
+                <ul>
+                    <li>Basic Chamber directory listing</li>
+                    <li>Networking opportunities</li>
+                    <li>Monthly newsletter subscription</li>
+                    <li>Access to community events</li>
+                </ul>
+            </div>
+            
+            <div class="membership-card bronze">
+                <h3>Bronze Membership</h3>
+                <p class="price">5,000 MZN per year</p>
+                <ul>
+                    <li>Enhanced directory listing</li>
+                    <li>Quarterly business spotlight opportunity</li>
+                    <li>Access to member-only workshops</li>
+                    <li>10% discount on event registrations</li>
+                    <li>All NP membership benefits included</li>
+                </ul>
+            </div>
+            
+            <div class="membership-card silver">
+                <h3>Silver Membership</h3>
+                <p class="price">12,500 MZN per year</p>
+                <ul>
+                    <li>Premium directory listing with logo</li>
+                    <li>Monthly business spotlight opportunity</li>
+                    <li>Featured in social media promotions</li>
+                    <li>25% discount on event registrations</li>
+                    <li>Invitation to exclusive networking events</li>
+                    <li>All Bronze membership benefits included</li>
+                </ul>
+            </div>
+            
+            <div class="membership-card gold">
+                <h3>Gold Membership</h3>
+                <p class="price">25,000 MZN per year</p>
+                <ul>
+                    <li>Priority directory listing with logo and photos</li>
+                    <li>Permanent home page recognition</li>
+                    <li>Dedicated business advisor</li>
+                    <li>50% discount on event registrations</li>
+                    <li>Complimentary booth at annual business expo</li>
+                    <li>Opportunity to host Chamber events</li>
+                    <li>All Silver membership benefits included</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="image/Site-Logo.png" alt="Matola Chamber of Commerce Logo">
+                <div class="footer-name">
+                    <h3>Matola Chamber of Commerce</h3>
+                    <p>Avenida Samora Machel, Matola 1100</p>
+                    <p>Maputo Province, Mozambique</p>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <p>mchave@byupathway.edu</p>
+                <p>+258 856656243</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; <span ></span> Matola Chamber of Commerce | Manuel Chave | WDD 230 Project</p>
+            <p id="last-modified">Last Modified: </p>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

@@ -93,6 +93,14 @@
         transform: scale(1.03);
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
+
+    .join-main {
+        grid-template-columns: 3fr 2fr;
+    }
+    
+    .membership-form {
+        max-width: 100%;
+    }
 }
 
 
@@ -133,6 +141,10 @@
 
     .image-gallery {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .join-main {
+        grid-template-columns: 2fr 1fr;
     }
 }
 

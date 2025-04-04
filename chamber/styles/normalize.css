@@ -1,0 +1,212 @@
+/* Join Page Styles */
+.join-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem;
+    
+}
+
+.form-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.form-intro {
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.membership-form fieldset {
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.membership-form legend {
+    font-weight: bold;
+    color: #2ECC71;
+    padding: 0 0.5rem;
+}
+
+.membership-form label {
+    display: block;
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+}
+
+.membership-form input,
+.membership-form select,
+.membership-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.membership-form input:focus,
+.membership-form select:focus,
+.membership-form textarea:focus {
+    outline: none;
+    border-color: #2ECC71;
+    box-shadow: 0 0 0 2px rgba(46, 204, 113, 0.2);
+}
+
+.note {
+    display: block;
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 0.3rem;
+    font-style: italic;
+}
+
+.submit-btn {
+    background-color: #2ECC71;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    width: auto;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #27ae60;
+}
+
+.benefits-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.membership-card {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid;
+}
+
+.membership-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.membership-card .price {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.membership-card ul {
+    padding-left: 1.5rem;
+}
+
+.membership-card li {
+    margin-bottom: 0.5rem;
+}
+
+.np {
+    border-color: #3498db;
+}
+
+.bronze {
+    border-color: #cd7f32;
+}
+
+.silver {
+    border-color: #c0c0c0;
+}
+
+.gold {
+    border-color: #ffd700;
+}
+
+/* Thank You Page Styles */
+.thankyou-main {
+    padding: 1rem;
+    grid-template-columns: auto;
+    
+}
+
+.thank-you-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    
+    
+}
+
+.thank-you-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    max-width: 700px;
+    width: 100%;
+}
+
+.success-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+}
+
+.thank-you-card h1 {
+    color: #2ECC71;
+    margin-bottom: 1.5rem;
+}
+
+.thank-you-card p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.next-steps {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.next-steps h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.next-steps ol {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+.next-steps li {
+    margin-bottom: 0.5rem;
+}
+
+.return-home {
+    display: inline-block;
+    background-color: #2ECC71;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.return-home:hover {
+    background-color: #27ae60;
+}
