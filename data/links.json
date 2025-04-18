@@ -1,0 +1,90 @@
+{
+    "weeks": [
+      {
+        "week": "Week 01",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "Layout"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "Media Query"
+          },
+          {
+            "url": "week01/js-pen.html",
+            "title": "JS Pen"
+          }
+        ]
+      },
+      {
+        "week": "Week 02",
+        "links": [
+          {
+            "url": "week02/hamburger-menu.html",
+            "title": "Responsive Hamburger Menu"
+          },
+          {
+            "url": "week02/dom-manipulation.html",
+            "title": "DOM Manipulation"
+          },
+          {
+            "url": "week02/css-specificity.html",
+            "title": "CSS Specificity"
+          }
+        ]
+      },
+      {
+        "week": "Week 03",
+        "links": [
+          {
+            "url": "week03/webp.html",
+            "title": "WEBP"
+          },
+          {
+            "url": "week03/lazyload.html",
+            "title": "Lazy loading"
+          },
+          {
+            "url": "week03/srcset.html",
+            "title": "Srcset"
+          },
+          {
+            "url": "week03/localstorage.html",
+            "title": "LocalStorage"
+          }
+        ]
+      },
+      {
+        "week": "Week 04",
+        "links": [
+          {
+            "url": "week04/pseudo-classes.html",
+            "title": "Pseudo-classes"
+          },
+          {
+            "url": "week04/combinators.html",
+            "title": "Combinators"
+          }
+        ]
+      },
+      {
+        "week": "Week 05",
+        "links": [
+          {
+            "url": "week05/exercise1.html",
+            "title": "Exercise 1"
+          }
+        ]
+      },
+      {
+        "week": "Week 06",
+        "links": [
+          {
+            "url": "week06/exercise1.html",
+            "title": "Exercise 1"
+          }
+        ]
+      }
+    ]
+  }
