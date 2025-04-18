@@ -1,0 +1,85 @@
+{
+    "members": [
+      {
+        "name": "Mozal Aluminum",
+        "address": "Industrial Area, Beluluane Industrial Park, Matola",
+        "phone": "+258 21 720 400",
+        "website": "https://www.south32.net/our-business/southern-africa/mozal-aluminium",
+        "image": "mozal-profie-logo-300x300.webp",
+        "membershipLevel": "Gold",
+        "description": "One of the largest aluminum smelters in Africa, producing primary aluminum for global export markets."
+      },
+      {
+        "name": "Cervejas de Moçambique",
+        "address": "Av. da Namaacha Km 6, Matola",
+        "phone": "+258 21 741 000",
+        "website": "https://www.cdm.co.mz",
+        "image": "cdm.png",
+        "membershipLevel": "Gold",
+        "description": "Mozambique's leading beverage company, brewing local favorites and international brands."
+      },
+      {
+        "name": "Matola Port Services",
+        "address": "Porto de Matola, Matola",
+        "phone": "+258 21 720 100",
+        "website": "https://www.portmaputo.com",
+        "image": "Matola-port.jpg",
+        "membershipLevel": "Silver",
+        "description": "Key port facility handling bulk cargo, minerals, and petroleum products for Southern Africa."
+      },
+      {
+        "name": "Cimentos de Moçambique",
+        "address": "Av. da Namaacha, Matola",
+        "phone": "+258 21 720 300",
+        "website": "https://www.cimentos.co.mz",
+        "image": "cimentos.png",
+        "membershipLevel": "Silver",
+        "description": "Leading cement producer in Mozambique, supplying construction materials nationwide."
+      },
+      {
+        "name": "Matola Shopping Center",
+        "address": "Av. União Africana, Matola",
+        "phone": "+258 84 123 4567",
+        "website": "https://www.matolashopping.co.mz",
+        "image": "shopping-center.png",
+        "membershipLevel": "Bronze",
+        "description": "The region's premier shopping destination with retail, dining, and entertainment."
+      },
+      {
+        "name": "Bank of Matola",
+        "address": "Rua da Resistência 25, Matola",
+        "phone": "+258 21 840 300",
+        "website": "https://www.bankofmatola.co.mz",
+        "image": "bank.png",
+        "membershipLevel": "Gold",
+        "description": "Local financial institution providing banking services to individuals and businesses."
+      },
+      {
+        "name": "Matola Health Center",
+        "address": "Av. FPLM 15, Matola",
+        "phone": "+258 21 724 500",
+        "website": "https://www.matolahealth.org",
+        "image": "hospital.png",
+        "membershipLevel": "NP",
+        "description": "Non-profit healthcare provider serving the community with quality medical services."
+      },
+      {
+        "name": "Tech Matola",
+        "address": "Rua dos Comerciantes 45, Matola",
+        "phone": "+258 84 987 6543",
+        "website": "https://www.techmatola.co.mz",
+        "image": "tech.png",
+        "membershipLevel": "Bronze",
+        "description": "Technology services and IT solutions for businesses throughout Mozambique."
+      },
+      {
+        "name": "Matola Education Foundation",
+        "address": "Rua da Educação 10, Matola",
+        "phone": "+258 21 456 789",
+        "website": "https://www.matolaeducation.org",
+        "image": "education.png",
+        "membershipLevel": "NP",
+        "description": "Non-profit organization focused on improving educational opportunities in the region."
+      }
+    ]
+  }
