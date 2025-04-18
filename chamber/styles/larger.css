@@ -101,6 +101,36 @@
     .membership-form {
         max-width: 100%;
     }
+
+    .directory-container.grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .list-item {
+        grid-template-columns: 100px 1fr;
+    }
+    
+    .list-item-image {
+        width: 100px;
+        height: 100px;
+    }
+
+
+}
+@media screen and (min-width: 900px) {
+    .directory-container.grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .list-item {
+        grid-template-columns: 120px 1fr;
+        padding: 1.5rem;
+    }
+    
+    .list-item-image {
+        width: 120px;
+        height: 120px;
+    }
 }
 
 
@@ -145,6 +175,9 @@
 
     .join-main {
         grid-template-columns: 2fr 1fr;
+    }
+    .directory-container.grid {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 

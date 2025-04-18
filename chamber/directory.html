@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Matola Chamber of Commerce -consectetur adipisicing elit. Aliquam iste.">
+    <meta name="author" content="Manuel Chave">
+    <meta property="og:title" content="Matola Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/ManuelChave1/wdd230/blob/main/chamber/image/Site-Logo.png">
+    <meta property="og:url" content="https://manuelchave1.github.io/wdd230/">
+    <link rel="icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <title>Member Directory - Matola Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="image/Site-Logo.png" alt="Matola Chamber of Commerce Logo">
+                <div class="site-name">
+                    <h1>Matola</h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+            </div>
+            <div class="social-media-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="image/facebook-icon.png" alt="Facebook">
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <img src="image/linkedin-icon.png" alt="LinkedIn">
+                </a>
+            </div>
+        
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li class="active"><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  
+    <main class="directory-main">
+        <div class="directory-header">
+            <h1>Member Directory</h1>
+            <p>Discover businesses and organizations in Matola</p>
+            
+            <div class="view-toggle">
+                <button id="grid-btn" class="active">
+                    <img src="image/grid-icon.webp" alt="Grid View">
+                </button>
+                <button id="list-btn">
+                    <img src="image/list-icon.webp" alt="List View">
+                </button>
+            </div>
+        </div>
+
+        <div class="directory-container grid">
+            <!-- Member cards will be dynamically loaded here -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="image/Site-Logo.png" alt="Matola Chamber of Commerce Logo">
+                <div class="footer-name">
+                    <h3>Matola Chamber of Commerce</h3>
+                    <p>Avenida Samora Machel, Matola 1100</p>
+                    <p>Maputo Province, Mozambique</p>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <p>mchave@byupathway.edu</p>
+                <p>+258 856656243</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; <span ></span> Matola Chamber of Commerce | Manuel Chave | WDD 230 Project</p>
+            <p id="last-modified">Last Modified: </p>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/directory.js"></script>
+</body>
+</html>
